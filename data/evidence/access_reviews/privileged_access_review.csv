@@ -1,0 +1,3 @@
+Review #,Account ID,System,Reviewed By,Review Date,Justification,Decision
+REV-001,PR-002,Payroll,sarah.connor@acme.com,2026-08-20,Confirmed still needed for Controller payroll approval duties; verified against current role requirements.,Retain
+REV-002,CR-001,CRM,grace.kim@acme.com,2026-08-25,,Retain

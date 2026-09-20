@@ -1,0 +1,44 @@
+applications:
+  ClinCareEHR:
+    sensitivity: high
+    profiles:
+    - Clinician_User
+    - Clinician_Admin
+    - Billing_Clerk
+    - Billing_Approver
+    - PHI_Admin
+    - IT_Admin
+    - System_Admin
+    - ReadOnly
+    sod_conflicts:
+    - - Billing_Clerk
+      - Billing_Approver
+    role_to_profile:
+      Clinical Coordinator:
+      - Clinician_User
+      - PHI_Admin
+      Care Manager:
+      - Clinician_User
+      - PHI_Admin
+      Care Manager (Contractor):
+      - Clinician_User
+      Program Director:
+      - Clinician_Admin
+      Billing Clerk:
+      - Billing_Clerk
+      Billing Supervisor:
+      - Billing_Approver
+      Compliance Officer:
+      - ReadOnly
+      IT Manager:
+      - IT_Admin
+      - System_Admin
+      IT Support Analyst:
+      - IT_Admin
+    privileged_profiles:
+    - PHI_Admin
+    - System_Admin
+deprovisioning_sla_days: 5
+dormant_threshold_days: 90
+joiner_provisioning_sla_days: 10
+uar_review_period: 2026-Q3

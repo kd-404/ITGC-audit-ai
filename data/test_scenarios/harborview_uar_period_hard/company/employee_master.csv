@@ -1,0 +1,13 @@
+Staff No.,Legal Name,Corp Email Address,Dept / Division,Job Title / Role,Line Manager Email,Employee Status,Start Date,Separation Date
+H-01,Priya Ramanathan,priya.ramanathan@harborviewbh.org,Billing,Billing Supervisor,,Active,12-Mar-2016,
+H-02,Marcus Doyle,marcus.doyle@harborviewbh.org,Billing,Billing Supervisor,priya.ramanathan@harborviewbh.org,Active,04-Aug-2020,
+H-03,Dana Whitfield,dana.whitfield@harborviewbh.org,Outpatient,Clinical Coordinator,naomi.park@harborviewbh.org,Active,19-Feb-2019,
+H-04,Grace Liu,grace.liu@harborviewbh.org,Outpatient,Care Manager,naomi.park@harborviewbh.org,Active,23-Jul-2021,
+H-05,Tobias Reyes,tobias.reyes@harborviewbh.org,Outpatient,Clinical Coordinator,naomi.park@harborviewbh.org,Active,11-Jan-2022,
+H-06,Naomi Park,naomi.park@harborviewbh.org,Outpatient,Program Director,,Active,02-Sep-2013,
+H-07,Sam Okafor,sam.okafor@harborviewbh.org,Outpatient,Care Manager,naomi.park@harborviewbh.org,Active,15-May-2018,
+H-08,Sam Okafor,s.okafor.contractor@harborviewbh.org,Residential,Care Manager (Contractor),warren.bell@harborviewbh.org,Terminated,01-Oct-2025,12-Sep-2026
+H-09,Warren Bell,warren.bell@harborviewbh.org,Residential,Program Director,,Active,07-Apr-2015,
+H-10,Ben Ferris,ben.ferris@harborviewbh.org,IT,IT Manager,,Active,20-Jun-2014,
+H-11,Alicia Munroe,alicia.munroe@harborviewbh.org,IT,IT Support Analyst,ben.ferris@harborviewbh.org,Active,09-Nov-2022,
+H-12,Renee Castillo,renee.castillo@harborviewbh.org,Compliance,Compliance Officer,,Active,03-Jan-2012,

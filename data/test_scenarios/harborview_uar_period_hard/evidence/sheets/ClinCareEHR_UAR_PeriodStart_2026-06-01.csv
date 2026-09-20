@@ -1,0 +1,14 @@
+Account ID,User Full Name,Email Address,Access Profile(s),Account Status,Last Login,Snapshot Date
+CC-101,Priya Ramanathan,priya.ramanathan@harborviewbh.org,Billing_Approver,Active,2026-05-30,2026-06-01
+CC-102,Marcus Doyle,marcus.doyle@harborviewbh.org,Billing_Clerk,Active,2026-05-29,2026-06-01
+CC-103,Dana Whitfield,dana.whitfield@harborviewbh.org,Clinician_User,Active,2026-05-28,2026-06-01
+CC-104,Grace Liu,grace.liu@harborviewbh.org,Clinician_User,Active,2026-05-27,2026-06-01
+CC-105,Tobias Reyes,tobias.reyes@harborviewbh.org,Clinician_User,Active,2026-05-31,2026-06-01
+CC-106,Naomi Park,naomi.park@harborviewbh.org,Clinician_Admin,Active,2026-05-30,2026-06-01
+CC-107,Sam Okafor,sam.okafor@harborviewbh.org,Clinician_User,Active,2026-05-26,2026-06-01
+CC-108,Sam Okafor,s.okafor.contractor@harborviewbh.org,Clinician_User,Active,2026-06-01,2026-06-01
+CC-109,Warren Bell,warren.bell@harborviewbh.org,Clinician_Admin,Active,2026-05-29,2026-06-01
+CC-110,Ben Ferris,ben.ferris@harborviewbh.org,"IT_Admin, System_Admin",Active,2026-05-30,2026-06-01
+CC-111,Alicia Munroe,alicia.munroe@harborviewbh.org,IT_Admin,Active,2026-05-28,2026-06-01
+CC-112,Renee Castillo,renee.castillo@harborviewbh.org,ReadOnly,Active,2026-05-20,2026-06-01
+SVC-201,SVC-ClinCare-ETL,,System_Admin,Active,2026-05-30,2026-06-01

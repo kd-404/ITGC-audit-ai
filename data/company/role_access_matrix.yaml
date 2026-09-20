@@ -1,0 +1,48 @@
+applications:
+  FinERP:
+    sensitivity: high
+    profiles:
+    - AP Invoice Entry
+    - AP Invoice Approval
+    - AP Admin
+    - Read Only
+    sod_conflicts:
+    - - AP Invoice Entry
+      - AP Invoice Approval
+    role_to_profile:
+      AP Clerk:
+      - AP Invoice Entry
+      AP Manager:
+      - AP Invoice Approval
+      Controller:
+      - AP Invoice Approval
+      - Read Only
+  Payroll:
+    sensitivity: high
+    profiles:
+    - Payroll Processor
+    - Payroll Approver
+    - Read Only
+    sod_conflicts:
+    - - Payroll Processor
+      - Payroll Approver
+    role_to_profile:
+      Payroll Specialist:
+      - Payroll Processor
+      Controller:
+      - Payroll Approver
+  CRM:
+    sensitivity: low
+    profiles:
+    - Sales User
+    - Sales Admin
+    sod_conflicts: []
+    role_to_profile:
+      Sales Rep:
+      - Sales User
+      Sales Manager:
+      - Sales Admin
+deprovisioning_sla_days: 3
+dormant_threshold_days: 90
+joiner_provisioning_sla_days: 10
+uar_review_period: 2026-Q3

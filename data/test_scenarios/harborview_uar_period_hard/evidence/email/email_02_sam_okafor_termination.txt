@@ -1,0 +1,11 @@
+From: Warren Bell <warren.bell@harborviewbh.org>
+To: Ben Ferris <ben.ferris@harborviewbh.org>
+Date: 11-Sep-2026
+Subject: Access removal - Sam's last day was Friday
+
+Ben,
+
+Sam's contract wrapped up - his last day was Friday. Please disable his
+ClinCareEHR access today if it hasn't happened already.
+
+Warren

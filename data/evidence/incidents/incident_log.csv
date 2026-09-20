@@ -1,0 +1,6 @@
+Incident ID,System,Severity,Description,Date Reported,Date Resolved,Root Cause,Status
+INC-001,FinERP,High,AP invoice posting service outage due to connection pool exhaustion,2026-08-01,2026-08-10,Connection pool exhausted under peak load; increased pool size and added alerting.,Resolved
+INC-002,Payroll,Medium,Payroll batch job did not complete before the nightly cutoff,2026-08-01,2026-08-03,,Closed
+INC-003,CRM,Low,Sales dashboard fails to load intermittently for EU region users,2026-07-01,2026-07-02,Restarted dashboard service.,Resolved
+INC-004,CRM,Low,Sales dashboard fails to load intermittently for EU region users,2026-08-15,2026-08-16,Restarted dashboard service again.,Resolved
+INC-005,FinERP,Critical,Applied emergency security patch to address a critical CVE alert on the FinERP application server,2026-09-01,2026-09-01,Patched and verified fix same day; no exploitation detected.,Closed

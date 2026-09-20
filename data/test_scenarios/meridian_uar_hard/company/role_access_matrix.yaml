@@ -1,0 +1,78 @@
+applications:
+  Horizon ERP:
+    sensitivity: high
+    profiles:
+    - Finance_Approver
+    - Finance_User
+    - AP_Clerk
+    - Production_Admin
+    - Production_User
+    - Production_Planner
+    - QA_ReadOnly
+    - Sales_Admin
+    - Sales_User
+    - Sales_Approver
+    - Marketing_User
+    - Warehouse_Admin
+    - Warehouse_User
+    - Logistics_User
+    - HR_Admin
+    - HR_User
+    - Admin_User
+    - Compliance_Admin
+    sod_conflicts:
+    - - Finance_User
+      - Finance_Approver
+    - - AP_Clerk
+      - Finance_Approver
+    role_to_profile:
+      Finance Manager:
+      - Finance_Approver
+      Finance Executive:
+      - Finance_User
+      Accounts Payable Clerk:
+      - AP_Clerk
+      Financial Analyst:
+      - Finance_User
+      Junior Accountant:
+      - Finance_User
+      Production Manager:
+      - Production_Admin
+      Production Supervisor:
+      - Production_User
+      Machine Operator:
+      - Production_User
+      Quality Auditor (Contractor):
+      - QA_ReadOnly
+      Production Planner:
+      - Production_Planner
+      Sales Manager:
+      - Sales_Admin
+      Sales Executive:
+      - Sales_User
+      Regional Sales Manager:
+      - Sales_Approver
+      Marketing Executive:
+      - Marketing_User
+      Sales Coordinator:
+      - Sales_User
+      Warehouse Manager:
+      - Warehouse_Admin
+      Warehouse Supervisor:
+      - Warehouse_User
+      Logistics Coordinator:
+      - Logistics_User
+      Store Keeper:
+      - Warehouse_User
+      HR Manager:
+      - HR_Admin
+      HR Executive:
+      - HR_User
+      Admin Officer:
+      - Admin_User
+      IT Compliance Officer:
+      - Compliance_Admin
+deprovisioning_sla_days: 5
+dormant_threshold_days: 90
+joiner_provisioning_sla_days: 10
+uar_review_period: 2026-Q3

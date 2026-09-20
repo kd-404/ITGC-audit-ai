@@ -1,0 +1,100 @@
+issues:
+- id: GT-01
+  type: JML_TERMINATED_ACTIVE_ACCOUNT
+  system: FinERP
+  person: Jonathan Ito
+  email: jonathan.ito@acme.com
+  expected_severity: Critical
+  detail: Terminated 2026-07-31; FinERP account FE-006 still Active, last login 02-Sep-2026
+    (post-termination use).
+- id: GT-02
+  type: JML_TERMINATED_ACTIVE_ACCOUNT
+  system: Payroll
+  person: Noor Hassan
+  email: noor.hassan@acme.com
+  expected_severity: Critical
+  detail: Terminated 2026-06-20; Payroll Read Only PR-003 still Active. Deprovisioning
+    ticket SD-1007 raised but never implemented (still Open) - SLA breached by months.
+- id: GT-03
+  type: SOD_VIOLATION_ACCESS
+  system: FinERP
+  person: Isabelle Moreau
+  email: isabelle.moreau@acme.com
+  expected_severity: High
+  detail: Holds both AP Invoice Entry and AP Invoice Approval - conflicting profile
+    pair per role matrix.
+- id: GT-04
+  type: MISSING_APPROVAL_EVIDENCE
+  system: FinERP
+  person: Isabelle Moreau
+  email: isabelle.moreau@acme.com
+  expected_severity: High
+  detail: AP Invoice Approval profile has no service-desk ticket; only a manager-only
+    email (email_001) authorized it, and security approval required for this sensitive
+    system was explicitly skipped.
+- id: GT-05
+  type: ORPHAN_ACCOUNT
+  system: FinERP
+  person: Contractor - B Hale
+  email: bhale@acme-consulting.com
+  expected_severity: Medium
+  detail: FE-007 has no matching record in employee master; external contractor address,
+    no onboarding trace.
+- id: GT-06
+  type: EXCESS_ACCESS_UNEXPECTED_ROLE
+  system: FinERP
+  person: Marcus Lindgren
+  email: marcus.lindgren@acme.com
+  expected_severity: High
+  detail: Sales Rep holds AP Invoice Approval - not part of any role in the access
+    matrix for Sales Rep.
+- id: GT-07
+  type: PROVISIONING_SOD_SELF_APPROVED
+  system: FinERP
+  person: Marcus Lindgren
+  email: marcus.lindgren@acme.com
+  expected_severity: Critical
+  detail: 'Ticket SD-1004: requester and approver are the same person (self-approved
+    access request).'
+- id: GT-08
+  type: APPROVAL_AFTER_IMPLEMENTATION
+  system: FinERP
+  person: Kwame Asante
+  email: kwame.asante@acme.com
+  expected_severity: Medium
+  detail: 'Ticket SD-1005: implemented 2026-09-02 before approval recorded 2026-09-05
+    - access granted ahead of approval.'
+- id: GT-09
+  type: DORMANT_ACCOUNT_NOT_REVIEWED
+  system: FinERP
+  person: Derek Owusu
+  email: derek.owusu@acme.com
+  expected_severity: Medium
+  detail: FE-009 AP Admin last login 10-Jan-2026 (>90 days), still Active; email_003
+    shows it was meant to be temporary and revoked, but was not.
+- id: GT-10
+  type: MISSING_DEPROVISIONING_RECORD
+  system: FinERP
+  person: Jonathan Ito
+  email: jonathan.ito@acme.com
+  expected_severity: High
+  detail: No service-desk deprovisioning ticket exists at all for Jonathan Ito's termination
+    - control/evidence gap, compounds GT-01.
+- id: GT-12
+  type: MISSING_APPROVAL_EVIDENCE
+  system: FinERP
+  person: Derek Owusu
+  email: derek.owusu@acme.com
+  expected_severity: High
+  detail: AP Admin (FE-009) has no service-desk ticket, and the only related email
+    (email_003) is from Kwame Asante (IT Admin, not an approver-eligible role) notifying
+    rather than authorizing - no valid approval evidence exists for this grant at
+    all.
+- id: GT-11
+  type: CLEAN_TIMELY_DEPROVISIONING
+  system: CRM
+  person: Helena Cruz
+  email: helena.cruz@acme.com
+  expected_severity: N/A - should PASS, not be flagged
+  detail: 'Terminated 2026-08-15; CRM account disabled same day per SD-1006. Negative
+    control: pipeline must NOT raise a finding here.'

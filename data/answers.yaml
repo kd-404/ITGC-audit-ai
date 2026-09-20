@@ -1,0 +1,7 @@
+# Answers to enquiries raised by the pipeline (see outputs/enquiries.json or
+# the "Enquiries" tab of the workpaper after a run). Re-run the pipeline after
+# filling these in - matched enquiries will show the answer in the workpaper.
+#
+# answers:
+#   ENQ-001: "Confirmed contractor - Ben Hale, engaged via Acme Consulting Ltd, SOW #4471."
+answers: {}

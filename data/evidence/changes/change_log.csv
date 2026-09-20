@@ -1,0 +1,6 @@
+Change #,System,Description,Requested By,Developer,Approver,Deployer,Environment,Test Evidence,Date Requested,Date Approved,Date Deployed,Status,Emergency Change,Post Implementation Review Date,Post Implementation Reviewed By
+CHG-001,FinERP,Add three-way match tolerance field to AP invoice entry screen,tomas.novak@acme.com,tomas.novak@acme.com,ravi.desai@acme.com,kwame.asante@acme.com,Production,UAT-2201,2026-08-01,2026-08-03,2026-08-05,Deployed,No,,
+CHG-002,FinERP,Patch AP Invoice Approval workflow rounding bug,kwame.asante@acme.com,kwame.asante@acme.com,,tomas.novak@acme.com,Production,UAT-2202,2026-08-10,,2026-08-12,Deployed,No,,
+CHG-003,Payroll,Update payroll tax bracket table for FY2026,tomas.novak@acme.com,tomas.novak@acme.com,ravi.desai@acme.com,tomas.novak@acme.com,Production,UAT-2203,2026-08-14,2026-08-15,2026-08-18,Deployed,No,,
+CHG-004,CRM,Add regional territory field to Sales Admin console,kwame.asante@acme.com,kwame.asante@acme.com,ana.souza@acme.com,tomas.novak@acme.com,Production,,2026-08-20,2026-08-21,2026-08-25,Deployed,No,,
+CHG-005,FinERP,Emergency fix for AP invoice posting outage,kwame.asante@acme.com,kwame.asante@acme.com,,fatima.zahra@acme.com,Production,,2026-08-01,,2026-08-02,Deployed,Yes,,

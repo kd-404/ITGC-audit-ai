@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITGC Audit AI — Continuous Governance Console</title>
+<meta name="description" content="Live ITGC / IT general controls audit console: continuous evidence ingestion, deterministic control evaluation, and explainable findings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">ITGC</span>
+    <span class="brand-name">Continuous Audit Console</span>
+  </div>
+  <div class="topbar-status" id="topbar-status">No engagement loaded</div>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="controls">01 · Controls</button>
+  <button class="tab-btn" data-tab="evidence">02 · Evidence</button>
+  <button class="tab-btn" data-tab="evidence-map">03 · Evidence Map</button>
+  <button class="tab-btn" data-tab="findings">04 · Findings</button>
+  <button class="tab-btn" data-tab="enquiries">05 · Enquiries <span id="enq-badge" class="badge hidden">0</span></button>
+  <button class="tab-btn" data-tab="summary">06 · Summary</button>
+</nav>
+
+<main>
+  <!-- ===================== CONTROLS TAB ===================== -->
+  <section class="tab-panel active" id="tab-controls">
+    <p class="hint">
+      Choose which ITGC control domain(s) to check this run. Each one only fires the checks it
+      implements, and only against the evidence you actually provide — pick a control to see what
+      you'll need to upload for it on the Evidence tab.
+    </p>
+    <div id="controls-list" class="controls-list"></div>
+    <div class="action-row">
+      <span class="spacer"></span>
+      <span id="controls-save-status" class="hint" style="margin: 0;"></span>
+      <button class="btn-primary" id="btn-save-controls">Save selection</button>
+    </div>
+  </section>
+
+  <!-- ===================== EVIDENCE TAB ===================== -->
+  <section class="tab-panel" id="tab-evidence">
+    <div class="panel-row">
+      <div class="card">
+        <h3>Company policy</h3>
+        <p class="hint">Employee master + role-access matrix + engagement context. Not evidence — this is what "should be true."</p>
+        <div class="dropzone" id="drop-company">
+          <p>Drag files here, or</p>
+          <label class="btn-file">Choose files<input type="file" id="file-company" multiple hidden></label>
+        </div>
+        <ul class="file-list" id="list-company"></ul>
+      </div>
+
+      <div class="card">
+        <h3>Evidence</h3>
+        <p class="hint">UAR exports, service-desk extracts, emails — any format, any subfolder.</p>
+        <div class="dropzone" id="drop-evidence">
+          <p>Drag files here, or</p>
+          <label class="btn-file">Choose files<input type="file" id="file-evidence" multiple hidden></label>
+        </div>
+        <ul class="file-list" id="list-evidence"></ul>
+      </div>
+    </div>
+
+    <div class="action-row">
+      <button class="btn-secondary" id="btn-sample">Load sample ACME dataset</button>
+      <button class="btn-secondary" id="btn-preview">Preview classification</button>
+      <button class="btn-secondary" id="btn-reset">Reset engagement</button>
+      <span class="spacer"></span>
+      <span class="hint" id="controls-in-scope" style="margin: 0;"></span>
+      <label class="as-of-label">As of <input type="date" id="as-of-date"></label>
+      <label class="llm-toggle"><input type="checkbox" id="use-llm" checked> Use local LLM (Ollama) for narratives</label>
+      <button class="btn-primary" id="btn-run">Run Audit</button>
+    </div>
+
+    <div id="preview-panel" class="preview-panel hidden">
+      <h4>File classification preview</h4>
+      <table class="data-table" id="preview-table">
+        <thead><tr><th>File</th><th>Area</th><th>Classified as</th><th>Confidence</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div id="run-log" class="run-log hidden"></div>
+  </section>
+
+  <!-- ===================== EVIDENCE MAP TAB ===================== -->
+  <section class="tab-panel" id="tab-evidence-map">
+    <p class="hint">
+      Every fact gathered about one person or account, from every source, in time order — this is the
+      cross-check view: how a UAR row, a ticket and an email about the same person line up (or don't).
+      Cases with findings or open enquiries are listed first.
+    </p>
+    <div class="filter-row">
+      <input type="text" id="map-search" placeholder="Search by name or email...">
+      <select id="map-filter">
+        <option value="">All cases</option>
+        <option value="findings">Has findings</option>
+        <option value="enquiries">Has open enquiries</option>
+        <option value="unresolved">Unresolved identity only</option>
+        <option value="correlated">🔎 Multi-control correlated only</option>
+      </select>
+    </div>
+    <div id="map-empty" class="empty-state">No evidence map yet — run the audit from the Evidence tab.</div>
+    <div id="map-list"></div>
+  </section>
+
+  <!-- ===================== FINDINGS TAB ===================== -->
+  <section class="tab-panel" id="tab-findings">
+    <div class="filter-row">
+      <select id="filter-severity">
+        <option value="">All severities</option>
+        <option>Critical</option><option>High</option><option>Medium</option><option>Low</option>
+      </select>
+      <select id="filter-system">
+        <option value="">All systems</option>
+      </select>
+      <span class="spacer"></span>
+      <a class="btn-secondary" id="btn-download-workpaper" href="/api/download/workpaper">Download workpaper (.xlsx)</a>
+      <a class="btn-primary" id="btn-download-report" href="/api/download/report">Download audit report (.pdf)</a>
+    </div>
+    <div id="findings-empty" class="empty-state">No findings yet — run the audit from the Evidence tab.</div>
+    <div id="findings-list"></div>
+  </section>
+
+  <!-- ===================== ENQUIRIES TAB ===================== -->
+  <section class="tab-panel" id="tab-enquiries">
+    <div id="enquiries-empty" class="empty-state">No open enquiries yet — run the audit from the Evidence tab.</div>
+    <div id="enquiries-list"></div>
+  </section>
+
+  <!-- ===================== SUMMARY TAB ===================== -->
+  <section class="tab-panel" id="tab-summary">
+    <div id="summary-empty" class="empty-state">No summary yet — run the audit from the Evidence tab.</div>
+    <div id="summary-content" class="hidden">
+      <h3 id="summary-title"></h3>
+      <div class="stat-row" id="stat-row"></div>
+      <p class="hint" id="summary-controls-run"></p>
+      <h4>Evidence ingested</h4>
+      <table class="data-table" id="summary-evidence-table">
+        <thead><tr><th>File</th><th>Classified as</th><th>Confidence</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

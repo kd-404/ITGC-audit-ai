@@ -1,0 +1,16 @@
+Ticket #,Requested By,Approved By,Application,Access / Change Requested,Ticket Status,Date Created,Date Approved,Date Implemented,Implemented By
+SD-1000A,sarah.connor@acme.com,ravi.desai@acme.com,FinERP,AP Invoice Approval,Closed,2018-03-05,2018-03-06,2018-03-08,ravi.desai@acme.com
+SD-1000B,miguel.alvarez@acme.com,sarah.connor@acme.com,FinERP,AP Invoice Approval,Closed,2019-06-12,2019-06-13,2019-06-15,tomas.novak@acme.com
+SD-1000C,sarah.connor@acme.com,ravi.desai@acme.com,Payroll,Payroll Approver,Closed,2018-03-05,2018-03-06,2018-03-09,ravi.desai@acme.com
+SD-1000D,ana.souza@acme.com,ravi.desai@acme.com,CRM,Sales Admin,Closed,2017-09-20,2017-09-21,2017-09-22,callum.reid@acme.com
+SD-1000E,marcus.lindgren@acme.com,ana.souza@acme.com,CRM,Sales User,Closed,2021-06-02,2021-06-03,2021-06-04,callum.reid@acme.com
+SD-1001,priya.nathan@acme.com,miguel.alvarez@acme.com,FinERP,AP Invoice Entry,Closed,2020-01-10,2020-01-12,2020-01-14,tomas.novak@acme.com
+SD-1002,derek.owusu@acme.com,miguel.alvarez@acme.com,FinERP,AP Invoice Entry,Closed,2021-02-15,2021-02-16,2021-02-18,tomas.novak@acme.com
+SD-1003,isabelle.moreau@acme.com,miguel.alvarez@acme.com,FinERP,AP Invoice Entry,Closed,2024-01-05,2024-01-06,2024-01-08,kwame.asante@acme.com
+SD-1004,marcus.lindgren@acme.com,marcus.lindgren@acme.com,FinERP,AP Invoice Approval,Closed,2026-08-15,2026-08-15,2026-08-20,kwame.asante@acme.com
+SD-1005,kwame.asante@acme.com,ravi.desai@acme.com,FinERP,Read Only,Closed,2026-09-01,2026-09-05,2026-09-02,tomas.novak@acme.com
+SD-1006,grace.kim@acme.com,grace.kim@acme.com,CRM,Disable Account - Helena Cruz,Closed,2026-08-15,2026-08-15,2026-08-15,callum.reid@acme.com
+SD-1007,grace.kim@acme.com,ravi.desai@acme.com,Payroll,Disable Account - Noor Hassan,Open,2026-06-21,2026-06-22,,
+SD-1008,lena.fischer@acme.com,sarah.connor@acme.com,Payroll,Payroll Processor,Closed,2017-11-06,2017-11-07,2017-11-09,tomas.novak@acme.com
+SD-1009,yuki.tanaka@acme.com,ana.souza@acme.com,CRM,Sales User,Closed,2022-10-12,2022-10-12,2022-10-13,callum.reid@acme.com
+SD-1010,ethan.brooks@acme.com,ana.souza@acme.com,CRM,Sales User,Closed,2025-03-02,2025-03-03,2025-03-04,callum.reid@acme.com

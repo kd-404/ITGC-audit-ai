@@ -1,0 +1,11 @@
+From: miguel.alvarez@acme.com
+To: kwame.asante@acme.com
+Subject: Re: Isabelle - approve her for invoice approval too while Sarah is out
+Date: Wed, 3 Jan 2024 09:14:00 +0000
+
+Kwame,
+
+Go ahead and give Isabelle approval rights in FinERP as well, we're short-staffed this week and I'll keep an eye on it. No need to loop in security for this one, it's temporary.
+
+Thanks,
+Miguel

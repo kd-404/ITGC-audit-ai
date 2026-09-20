@@ -1,0 +1,11 @@
+openpyxl>=3.1
+PyYAML>=6.0
+python-dateutil>=2.9
+reportlab>=4.0   # polished PDF audit report (report/pdf_report.py)
+
+# web GUI (webapp/server.py) - built on Starlette directly rather than
+# FastAPI so there's one less dependency; swap in fastapi+starlette if you
+# prefer, the routes would need no changes
+starlette>=0.37
+uvicorn>=0.27
+python-multipart>=0.0.9

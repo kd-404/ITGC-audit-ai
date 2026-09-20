@@ -1,0 +1,17 @@
+From: Arjun Malhotra <arjun.malhotra@meridiantex.com>
+To: Neha Kapoor <neha.kapoor@meridiantex.com>
+Date: 23-Aug-2026
+Subject: Re: Quarterly Horizon ERP User Access Review
+
+Hi Neha,
+
+For Warehouse - no changes needed on my own team this round, everyone's
+current.
+
+One more thing though - I was asked to pass along that MT-0013's Horizon
+access should be revoked. I'll leave it at the ID since it's a bit of a
+sensitive one and I'd rather not put a name in writing over email. Can you
+action that on your end?
+
+Thanks,
+Arjun

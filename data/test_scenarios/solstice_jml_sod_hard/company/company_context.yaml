@@ -1,0 +1,13 @@
+company: Solstice Freight & Logistics Ltd
+engagement: CargoLink TMS - ITGC review (JML, SoD, provisioning evidence)
+in_scope_applications:
+- CargoLink TMS
+policy_reference: SFL-ITGC-POL-02 Access Management Policy v3.0
+sod_policy_reference: SFL-ITGC-POL-05 Segregation of Duties Policy
+industry: Road freight and logistics
+notes: >
+  Evidence for this engagement is a service-desk ticket export, a CargoLink
+  TMS access (UAR) export, and ad hoc email correspondence between IT, HR
+  and department heads - there was no formal review campaign run for this
+  cycle, unlike a typical quarterly UAR; the tickets and emails are simply
+  whatever normal operational trail exists.

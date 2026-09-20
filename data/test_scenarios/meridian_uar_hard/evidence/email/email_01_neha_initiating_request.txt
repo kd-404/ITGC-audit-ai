@@ -1,0 +1,28 @@
+From: Neha Kapoor <neha.kapoor@meridiantex.com>
+To: Deepa Nair <deepa.nair@meridiantex.com>; Ravindra Shetty <ravindra.shetty@meridiantex.com>; Kavitha Reddy <kavitha.reddy@meridiantex.com>; Arjun Malhotra <arjun.malhotra@meridiantex.com>; Sunil Bhatia <sunil.bhatia@meridiantex.com>
+Cc: audit@meridiantex.com
+Date: 18-Aug-2026
+Subject: Quarterly Horizon ERP User Access Review - action needed by 27-Aug-2026
+
+Hi all,
+
+Time for our quarterly Horizon ERP access review. Attached is the current
+list of active Horizon ERP users under each of you (see
+horizon_erp_access_before_audit.xlsx).
+
+Please reply to this email by 27-Aug-2026 confirming, for each person
+on your team:
+  - KEEP - they still need Horizon ERP for their role, or
+  - REVOKE - access should be removed.
+
+A couple of reminders since this always comes up:
+  - Please only action people who actually report to you.
+  - If someone has moved teams or left, please say so explicitly rather than
+    just leaving them off the list.
+  - If you're not sure who a name refers to, please ask rather than guess -
+    I'd rather get one follow-up email than revoke the wrong person's
+    access.
+
+Thanks,
+Neha
+IT Compliance

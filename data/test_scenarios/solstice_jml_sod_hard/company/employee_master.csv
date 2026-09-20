@@ -1,0 +1,20 @@
+Staff No.,Legal Name,Corp Email Address,Dept / Division,Job Title / Role,Line Manager Email,Employee Status,Start Date,Separation Date
+E-1001,Grace Whitfield,grace.whitfield@solsticefreight.co.uk,Finance,Finance Director,,Active,14-Feb-2014,
+E-1002,David Ferreira,david.ferreira@solsticefreight.co.uk,Finance,AP Approver,grace.whitfield@solsticefreight.co.uk,Active,21-Jun-2019,
+E-1003,Helen Osei,helen.osei@solsticefreight.co.uk,Finance,AP Clerk,grace.whitfield@solsticefreight.co.uk,Active,18-Sep-2020,
+E-1004,Marcus Webb,marcus.webb@solsticefreight.co.uk,Finance,Financial Analyst,grace.whitfield@solsticefreight.co.uk,Active,23-Jan-2021,
+E-1010,James Walsh,james.walsh@solsticefreight.co.uk,Operations,Operations Manager,,Active,19-Mar-2013,
+E-1011,Chloe Bennett,chloe.bennett@solsticefreight.co.uk,Operations,Dispatch Coordinator,james.walsh@solsticefreight.co.uk,Active,27-Aug-2021,
+E-1012,Ola Adeyemi,ola.adeyemi@solsticefreight.co.uk,Operations,Route Planner,james.walsh@solsticefreight.co.uk,Active,30-Oct-2022,
+E-1050,Anna Kowalczyk,anna.kowalczyk@solsticefreight.co.uk,Operations,Customer Service Rep,james.walsh@solsticefreight.co.uk,Active,20-Aug-2026,
+E-1051,Farid Rahman,farid.rahman@solsticefreight.co.uk,Operations,Customer Service Rep,james.walsh@solsticefreight.co.uk,Active,22-Aug-2026,
+E-1020,James Walsh,j.walsh@solsticefreight.co.uk,Warehouse,Warehouse Manager,,Active,16-Nov-2015,
+E-1021,Tariq Hussain,tariq.hussain@solsticefreight.co.uk,Warehouse,Warehouse Supervisor,j.walsh@solsticefreight.co.uk,Active,24-Apr-2018,
+E-1022,Nadia Kowalski,nadia.kowalski@solsticefreight.co.uk,Warehouse,Stock Controller,j.walsh@solsticefreight.co.uk,Active,19-Dec-2022,
+E-1023,Ivy Chen,ivy.chen@solsticefreight.co.uk,Warehouse,Stock Controller,j.walsh@solsticefreight.co.uk,Terminated,18-May-2021,20-Jun-2026
+E-1030,Ben Sackey,ben.sackey@solsticefreight.co.uk,IT,IT Manager,,Active,15-May-2012,
+E-1031,Priya Chandran,priya.chandran@solsticefreight.co.uk,IT,IT Support Analyst,ben.sackey@solsticefreight.co.uk,Active,20-Aug-2026,
+E-1032,Tom Fitzgerald,tom.fitzgerald@solsticefreight.co.uk,IT,IT Security Officer,ben.sackey@solsticefreight.co.uk,Active,28-Feb-2017,
+E-1040,Lucy Adjei,lucy.adjei@solsticefreight.co.uk,HR,HR Manager,,Active,17-Jun-2011,
+E-1041,Samuel Owusu,samuel.owusu@solsticefreight.co.uk,HR,HR Advisor,lucy.adjei@solsticefreight.co.uk,Active,25-Jul-2019,
+C-0090,Priya Chandran,priya.freelance@extmail.co.uk,IT,IT Support Analyst (Contractor),ben.sackey@solsticefreight.co.uk,Terminated,14-Jan-2026,15-Aug-2026

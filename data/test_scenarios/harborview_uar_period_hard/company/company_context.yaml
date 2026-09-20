@@ -1,0 +1,16 @@
+company: Harborview Behavioral Health
+engagement: ClinCareEHR - ITGC review (period-start vs period-end UAR comparison)
+in_scope_applications:
+- ClinCareEHR
+policy_reference: HBH-ITGC-POL-03 Access Management Policy v1.4
+sod_policy_reference: HBH-ITGC-POL-06 Segregation of Duties Policy
+industry: Behavioral health / outpatient and residential clinical services
+notes: >
+  This cycle's evidence includes TWO dated ClinCareEHR access extracts
+  (period-start and period-end) rather than a single point-in-time pull,
+  specifically so that access changes made DURING the review period - not
+  just what happens to be held on the day a single extract is taken - can
+  be evaluated. A service-desk export and four emails round out the
+  evidence; roughly half the planted issues are caught by the automated
+  rules on their own, the rest (including one deliberate false positive)
+  require reading the emails.

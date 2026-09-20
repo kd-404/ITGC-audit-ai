@@ -1,0 +1,18 @@
+From: Ravindra Shetty <ravindra.shetty@meridiantex.com>
+To: Neha Kapoor <neha.kapoor@meridiantex.com>
+Date: 20-Aug-2026
+Subject: Re: Quarterly Horizon ERP User Access Review
+
+Neha,
+
+For my side - please go ahead and revoke Rahul's Horizon access, he's
+moved into a planning role that doesn't touch the ERP system day to day
+anymore.
+
+Also please revoke access for that contractor we discussed last month -
+his engagement wrapped up end of August so he shouldn't need anything
+after that.
+
+Everyone else on my team stays as-is.
+
+- Ravindra

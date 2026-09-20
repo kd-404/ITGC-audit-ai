@@ -1,0 +1,12 @@
+From: Ben Sackey <ben.sackey@solsticefreight.co.uk>
+To: Lucy Adjei <lucy.adjei@solsticefreight.co.uk>
+Date: 15-Aug-2026
+Subject: RE: Priya Chandran - contractor to permanent
+
+Hi Lucy,
+
+Confirmed both sides - old contractor account C-0090 disabled today
+(ticket T-3003), and her new IT_Admin access under E-1031 will go through
+as a separate new-starter ticket once she's actually started (T-3002).
+
+Ben

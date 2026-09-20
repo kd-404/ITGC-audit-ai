@@ -1,0 +1,14 @@
+From: Chloe Bennett <chloe.bennett@solsticefreight.co.uk>
+To: Ben Sackey <ben.sackey@solsticefreight.co.uk>
+Date: 10-Sep-2026
+Subject: Dispatch access - forgot to raise a ticket
+
+Hi Ben,
+
+Just a heads up - James Walsh approved my CargoLink dispatch access over a
+call last week since it was needed urgently for a client go-live, but I
+don't think either of us actually logged a ticket for it. Could you log it
+retrospectively when you get a chance? Sorry for the mess.
+
+Thanks,
+Chloe

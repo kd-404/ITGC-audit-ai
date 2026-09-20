@@ -1,0 +1,13 @@
+From: Priya Ramanathan <priya.ramanathan@harborviewbh.org>
+To: Ben Ferris <ben.ferris@harborviewbh.org>
+Date: 20-Jul-2026
+Subject: Re: Marcus Doyle promotion - please confirm old profile removed
+
+Ben,
+
+Following up on SD-3001 - can you confirm Marcus's old Billing_Clerk
+profile was actually removed as part of the Billing_Approver grant?
+He shouldn't be holding both once he's the one approving his own team's
+entries.
+
+Priya

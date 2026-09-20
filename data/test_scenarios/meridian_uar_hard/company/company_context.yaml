@@ -1,0 +1,17 @@
+company: Meridian Textiles Pvt Ltd
+engagement: Horizon ERP - quarterly User Access Review (UAR)
+in_scope_applications:
+- Horizon ERP
+policy_reference: MTX-ITGC-POL-04 Access Management Policy v1.0
+sod_policy_reference: MTX-ITGC-POL-07 Segregation of Duties Policy
+industry: Textiles manufacturing & distribution
+review_period_start: "18-Aug-2026"
+review_deadline: "27-Aug-2026"
+requested_by: Neha Kapoor, IT Compliance Officer
+notes: >
+  Five department managers were each sent the current Horizon ERP access
+  list for their own reports and asked to confirm retain/revoke decisions.
+  Evidence for this engagement is the email thread plus the before/after
+  access export - there is deliberately no service-desk ticket evidence in
+  scope for this review (see ANSWER_KEY_PRIVATE.md for what that implies for
+  the automated MISSING_APPROVAL_EVIDENCE control).

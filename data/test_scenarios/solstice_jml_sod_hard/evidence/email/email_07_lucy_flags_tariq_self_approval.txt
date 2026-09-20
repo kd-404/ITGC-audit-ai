@@ -1,0 +1,15 @@
+From: Lucy Adjei <lucy.adjei@solsticefreight.co.uk>
+To: Ben Sackey <ben.sackey@solsticefreight.co.uk>
+Date: 08-Sep-2026
+Subject: Something odd in last month's access requests
+
+Hi Ben,
+
+Not sure if this is a data entry issue or not, but I was skimming last
+month's CargoLink requests for an unrelated reason and noticed Tariq
+Hussain's Warehouse_Admin request (T-3004) shows him as both the requester
+and the approver. Can you check whether that's really what happened, or
+just a mistake in how it was logged?
+
+Thanks,
+Lucy

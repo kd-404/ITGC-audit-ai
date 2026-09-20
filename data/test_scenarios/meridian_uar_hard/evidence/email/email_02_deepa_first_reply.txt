@@ -1,0 +1,25 @@
+From: Deepa Nair <deepa.nair@meridiantex.com>
+To: Neha Kapoor <neha.kapoor@meridiantex.com>
+Cc: audit@meridiantex.com
+Date: 19-Aug-2026
+Subject: RE: Quarterly Horizon ERP User Access Review - action needed by 27-Aug-2026
+
+Hi Neha,
+
+For Finance:
+- Ramesh Pillai - please revoke. He's moved over to the new invoicing
+  system and doesn't touch Horizon ERP anymore.
+- Suman Ghosh - please revoke as well, same reason, moved to the new
+  system.
+- Priya Varma and I still need our access, no change there.
+
+Separately (not really a Horizon ERP thing but flagging while I'm at it) -
+Anitha Verma should be off all our systems by now, she left the company
+earlier this year. Not sure why she's still on your list at all, can you
+check?
+
+Thanks,
+Deepa
+
+> On 18-Aug-2026, Neha Kapoor wrote:
+> Hi all, time for our quarterly Horizon ERP access review...

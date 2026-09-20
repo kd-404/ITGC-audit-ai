@@ -1,0 +1,8 @@
+company: ACME Industries
+engagement: FY2026 ITGC - User Access Review
+in_scope_applications:
+- FinERP
+- Payroll
+- CRM
+policy_reference: ACME-ITGC-POL-04 Access Management Policy v2.1
+sod_policy_reference: ACME-ITGC-POL-07 Segregation of Duties Policy

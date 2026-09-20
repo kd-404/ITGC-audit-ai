@@ -1,0 +1,24 @@
+From: Deepa Nair <deepa.nair@meridiantex.com>
+To: Neha Kapoor <neha.kapoor@meridiantex.com>
+Cc: audit@meridiantex.com
+Date: 21-Aug-2026
+Subject: RE: RE: Quarterly Horizon ERP User Access Review - correction
+
+Hi Neha,
+
+Sorry, one correction to my earlier note - please IGNORE what I said about
+Ramesh Pillai. I checked with the team and he's actually still doing the
+year-end close in Horizon ERP through this quarter, so he needs to keep his
+access for now. We'll revisit next cycle.
+
+To be clear, the only Finance revoke this round is Suman Ghosh. Ramesh and
+Priya both keep their access.
+
+Sorry for the back-and-forth.
+
+Deepa
+
+> On 19-Aug-2026, Deepa Nair wrote:
+> For Finance:
+> - Ramesh Pillai - please revoke...
+> - Suman Ghosh - please revoke as well...

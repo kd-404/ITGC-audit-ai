@@ -1,0 +1,11 @@
+From: tomas.novak@acme.com
+To: derek.owusu@acme.com
+Subject: FinERP access provisioned - SD-1002
+Date: Thu, 18 Feb 2021 15:02:00 +0000
+
+Hi Derek,
+
+Your AP Invoice Entry access in FinERP has been provisioned per SD-1002, approved by Miguel on 16-Feb-2021.
+
+Regards,
+Tomas

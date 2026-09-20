@@ -1,0 +1,60 @@
+applications:
+  CargoLink TMS:
+    sensitivity: high
+    profiles:
+    - Ops_User
+    - Ops_Admin
+    - Dispatch_User
+    - Warehouse_User
+    - Warehouse_Admin
+    - AP_Clerk
+    - AP_Approver
+    - Finance_ReadOnly
+    - IT_Admin
+    - System_Admin
+    - Security_Admin
+    - HR_User
+    sod_conflicts:
+    - - AP_Clerk
+      - AP_Approver
+    role_to_profile:
+      Finance Director:
+      - Finance_ReadOnly
+      AP Approver:
+      - AP_Approver
+      AP Clerk:
+      - AP_Clerk
+      Financial Analyst:
+      - Finance_ReadOnly
+      Operations Manager:
+      - Ops_Admin
+      Dispatch Coordinator:
+      - Dispatch_User
+      Route Planner:
+      - Ops_User
+      Customer Service Rep:
+      - Ops_User
+      Warehouse Manager:
+      - Warehouse_Admin
+      Warehouse Supervisor:
+      - Warehouse_User
+      Stock Controller:
+      - Warehouse_User
+      IT Manager:
+      - IT_Admin
+      - System_Admin
+      IT Support Analyst:
+      - IT_Admin
+      IT Support Analyst (Contractor):
+      - IT_Admin
+      IT Security Officer:
+      - Security_Admin
+      - IT_Admin
+      HR Manager:
+      - HR_User
+      HR Advisor:
+      - HR_User
+deprovisioning_sla_days: 5
+dormant_threshold_days: 90
+joiner_provisioning_sla_days: 10
+uar_review_period: 2026-Q3

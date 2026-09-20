@@ -1,0 +1,10 @@
+From: kwame.asante@acme.com
+To: miguel.alvarez@acme.com
+Subject: Temp AP Admin for year-end migration
+Date: Fri, 8 Jan 2026 11:40:00 +0000
+
+Miguel,
+
+Granted Derek temporary AP Admin in FinERP so he can run the year-end vendor migration script. Please confirm once done so I can remove it again.
+
+Kwame

@@ -1,0 +1,15 @@
+From: Grace Whitfield <grace.whitfield@solsticefreight.co.uk>
+To: Ben Sackey <ben.sackey@solsticefreight.co.uk>
+Cc: David Ferreira <david.ferreira@solsticefreight.co.uk>
+Date: 09-Jul-2026
+Subject: David's promotion - CargoLink access change
+
+Hi Ben,
+
+Ahead of the ticket David's about to raise - just confirming from my side
+that as part of his promotion to AP Approver, his existing AP_Clerk profile
+should come off entirely. He shouldn't be holding both once this goes
+through, for obvious segregation-of-duties reasons.
+
+Thanks,
+Grace

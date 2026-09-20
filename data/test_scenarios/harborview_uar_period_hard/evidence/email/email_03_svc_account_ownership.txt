@@ -1,0 +1,15 @@
+From: Renee Castillo <renee.castillo@harborviewbh.org>
+To: Ben Ferris <ben.ferris@harborviewbh.org>
+Date: 05-Aug-2026
+Subject: SVC-ClinCare-ETL - compliance register entry
+
+Ben,
+
+For the record since this comes up on every UAR: SVC-ClinCare-ETL is the
+nightly claims-extract job. It's never been an HR-tracked identity - it's
+listed in the compliance register (entry CR-2019-014) with System_Admin
+as required for the ETL role, and I personally recertify it every January
+as part of the annual privileged-access review. It doesn't have an HR
+record because it was never meant to be a person.
+
+Renee
